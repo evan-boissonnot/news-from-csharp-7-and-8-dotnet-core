@@ -16,14 +16,15 @@ namespace SwitchExpression
 
             foreach (var wookie in wookies)
             {
-                WorkOneItem(wookie);
+                DisplayBirthOfV7(wookie);
+                Console.WriteLine(DisplayBirthOfV8(wookie));
             }
         }
 
         // C# 7 way
-        static void WorkOneItem(object item)
+        static void DisplayBirthOfV7(object item)
         {
-            switch(item)
+            switch (item)
             {
                 case Wookie wookie when wookie.Size > 3.4M:
                     {
@@ -34,8 +35,26 @@ namespace SwitchExpression
                 case Wookie wookie:
                     {
                         Console.WriteLine("C'est un wookie");
-                    } break;
+                    }
+                    break;
             }
+        }
+
+        static string DisplayBirthOfV8(object item)
+        {
+            string content = string.Empty;
+
+            content = item switch
+            {
+                Wookie wookie when wookie.Size > 3.4M => "C'est un wookie grand",
+
+                Wookie { Name: "Chewie" } => "C'est Chewie",
+
+                Wookie wookie => "C'est un wookie",
+                _ => "Non prévu"
+            };
+
+            return content;
         }
     }
 }

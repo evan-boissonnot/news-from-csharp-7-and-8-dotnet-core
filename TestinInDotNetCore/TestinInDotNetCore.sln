@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpression", "SwitchE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingWithoutAccolade", "UsingWithoutAccolade\UsingWithoutAccolade.csproj", "{6C5312CC-71FD-4752-A1FF-6AC5E62E8BA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensionMethod", "BetterExtensionMethod\BetterExtensionMethod.csproj", "{414EFD5D-94CD-4623-88A3-BBEEE106C077}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6C5312CC-71FD-4752-A1FF-6AC5E62E8BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C5312CC-71FD-4752-A1FF-6AC5E62E8BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C5312CC-71FD-4752-A1FF-6AC5E62E8BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414EFD5D-94CD-4623-88A3-BBEEE106C077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414EFD5D-94CD-4623-88A3-BBEEE106C077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414EFD5D-94CD-4623-88A3-BBEEE106C077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414EFD5D-94CD-4623-88A3-BBEEE106C077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

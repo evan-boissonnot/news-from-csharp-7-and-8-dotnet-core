@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingWithoutAccolade", "Usi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensionMethod", "BetterExtensionMethod\BetterExtensionMethod.csproj", "{414EFD5D-94CD-4623-88A3-BBEEE106C077}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAndMore", "InterfaceAndMore\InterfaceAndMore.csproj", "{1E6F7349-83B8-4E2E-8E54-7F59E23AD6B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{414EFD5D-94CD-4623-88A3-BBEEE106C077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414EFD5D-94CD-4623-88A3-BBEEE106C077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414EFD5D-94CD-4623-88A3-BBEEE106C077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6F7349-83B8-4E2E-8E54-7F59E23AD6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6F7349-83B8-4E2E-8E54-7F59E23AD6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6F7349-83B8-4E2E-8E54-7F59E23AD6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6F7349-83B8-4E2E-8E54-7F59E23AD6B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

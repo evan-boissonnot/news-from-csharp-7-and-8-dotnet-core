@@ -9,7 +9,7 @@ namespace SwitchExpression
         {
             List<Wookie> wookies = new List<Wookie>()
             {
-                new Wookie() { Name = "Chewie", Size = 3.5M },
+                new Wookie() { Name = "Chewie", Size = 3.2M },
                 new Wookie() { Name = "Attichitcuk", Size = 3.4M },
                 new Wookie() { Name = "Chak", Size = 3.2M }
             };
